@@ -35,6 +35,10 @@ body{
     border: none;
     border-radius: 10px;
     padding: 10px;
+    transition: transform 0.4s;
+}
+.btn:hover{
+    transform: scale(1.2);
 }
 
 /* Banner-section end */
@@ -123,3 +127,51 @@ body{
 }
 
 /* main section end */
+
+/* footer section start */
+footer{
+    background-color: black;
+    height: 480px;
+    margin-top: 100px;
+  
+}
+hr{
+    width: 80%;
+    margin-top: 50px;
+}
+
+.footer-heading{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.about .about-para{
+    margin-left: 40px;
+}
+.about-para{
+    color: white;
+
+}
+.fa-brands{
+    color: white;
+    font-size: 40px;
+    transition: transform 0.3s;
+}
+.social-icon{
+    text-align: center;
+    margin-top: 20px;
+}
+.social-icon .fa-brands{
+    padding: 20px;
+}
+.fa-brands:hover{
+    transform: scale(1.1);
+}
+/* footer section end */
