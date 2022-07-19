@@ -1,16 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Berkshire+Swash&family=Great+Vibes&family=Roboto:wght@500&family=Rubik:ital,wght@1,500&display=swap');
 body{
-    width: 80%;
+
 
 }
 /* Banner-section start */
-section{
+.header-section{
     display: flex;
     flex: 1;
     background-color: rgb(29, 27, 27);
     justify-content:space-evenly;
-    margin-left: 150px;
     border-radius: 20px;
     padding-top: 50px;
     margin-top: 50px;
@@ -25,8 +24,9 @@ section{
     font-size: 40px;
 }
 .paragraph{
-    font-size: 16px;
+    font-size: 12px;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 .btn{
     font-size: 20px;
@@ -38,3 +38,88 @@ section{
 }
 
 /* Banner-section end */
+
+
+/* main section start */
+.main-section{
+    
+    display: flex;
+
+    border-radius: 20px;
+    padding-top: 50px;
+    margin-top: 50px;
+    
+}
+.menu-bar{
+
+    width: 312px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.menu-bar button{
+    width: 252px;
+    height: 64px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    margin: 15px auto;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+.menu-bar .btn1{
+   background-color: rgb(230, 49, 17);
+   color: white;
+}
+.Blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.Blog{
+    margin-left: 30px;
+    border: 1px solid rgb(199, 191, 191);
+    border-radius: 20px;
+}
+.blog-para{
+    font-weight: 500;
+}
+.btn2{
+    margin-top: 20px;
+}
+
+.Blog-detail{
+    margin-left: 15px;
+}
+.Blog-icon{
+    display:flex;
+    align-items: center;
+    padding-bottom: 20px;
+    color:rgb(65, 66, 64);
+
+
+}
+/* .blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+}  */
+.Blog-icon .clock{
+    display: flex;
+    align-items: center;
+}
+.Blog-icon .messege{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+/* main section end */
