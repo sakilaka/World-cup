@@ -234,6 +234,12 @@ hr{
    }
    .menu-bar{
     background-color: white;
+    text-align: center;
+    margin-left: 30px;
+   }
+   .menu-bar button{
+    border: none;
+    background-color: rgb(212, 203, 203);
    }
    .Blogs{
     display: grid;
