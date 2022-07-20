@@ -92,6 +92,8 @@ body{
     margin-left: 30px;
     border: 1px solid rgb(199, 191, 191);
     border-radius: 20px;
+    width: 312px;
+    height: 362px; 
 }
 .blog-para{
     font-weight: bolder;
@@ -121,6 +123,13 @@ body{
     display: flex;
     align-items: center;
     margin-left: 30px;
+}
+.btn3{
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    display: none;
+
 }
 
 /* main section end */
@@ -154,6 +163,7 @@ hr{
 }
 .about-para{
     color: white;
+    font-size: 20px;
 
 }
 .fa-brands{
@@ -177,7 +187,7 @@ hr{
 /* Responsive start */
 
 /**************** For mobile  ************************/
-@media screen and (max-width:688px) {
+@media screen and (max-width:668px) {
     body{
         width: 100%;
     }
@@ -206,24 +216,60 @@ hr{
     display: grid;
     grid-template-columns: repeat(1,1fr);
 
-}
-.Blog{
+   }
+  .Blog{
     width: 312px;
     height: 388.69px;
-}
-.blog-para{
+   }
+   .blog-para{
     text-align: justify;
-}
-footer{
+   }
+   footer{
     height: 100%;
 }
-.about{
+   .about{
     flex-direction: column;
-}
+   }
+   .about-para{
+    font-size: 16px;
+   }
 }
 
 /******************* For Tab ********************/
-@media screen and (min-width:576px) and (max-width:768px){
+@media screen and (min-width:669px) and (max-width:992px) {
+    .main-section{
+        flex-direction: column;
+    }
+    .menu-bar{
+        flex-direction: row;
+        width: 85%;
+        height: 100%;
+        background-color: white;
+    }
+    
+    .Blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Blogs .last{
+        display: none;
+    }
+    .blog-para{
+        text-align: left;
+       }
+    .btn3{
+        display: inline;
+        margin-top: 30px;
+        border: none;
+        border-radius: 10px;
+    }
+    p{
+        text-align: center;
+    }
+    .about-para{
+        font-size: 16px;
+    }
+      
 
 }
 /* Responsive end */
