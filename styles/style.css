@@ -40,6 +40,7 @@ body{
 }
 .btn:hover{
     transform: scale(1.2);
+    background-color: rgb(219, 162, 16);
 }
 
 /* Banner-section end */
@@ -95,6 +96,12 @@ body{
     width: 312px;
     height: 362px; 
 }
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .blog-para{
     font-weight: bolder;
     font-size: 20px;
@@ -115,10 +122,17 @@ body{
 
 
 }
+.blog-title{
+    margin-bottom: 30px;
+}
 .Blog-banner{
     display: flex;
     justify-content: center;
     margin-top: 80px;
+}
+.blog-img img{
+    width: 250px;
+    height: 200px;
 }
 
 .Blog-icon .clock{
