@@ -263,6 +263,7 @@ hr{
 }
 
 /******************* For Tab ********************/
+
 @media screen and (min-width:577px) and (max-width:768px) {
     .main-section{
         flex-direction: column;
